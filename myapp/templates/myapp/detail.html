@@ -1,0 +1,35 @@
+{% extends 'myapp/base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    {% block body %}
+
+    <h2>{{item.item_name}}</h2>
+    <h3>{{item.item_desc}}</h3>
+
+    <div>
+        <pre>
+            <h2>
+                * Compare deals on Refurbished and Used
+                  Phones in India
+                    
+                * Get a quality phone that
+                  works like new but costs less
+            </h2>
+            
+        </pre>
+        
+    </div>
+    
+    {% endblock %}
+
+    
+    
+</body>
+</html>
